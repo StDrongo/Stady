@@ -3,7 +3,7 @@ package com.class25;
 public class Employee {
 
 	int salary;
-	protected static String companyName;
+	static String companyName;
 
 	void work() {
 		System.out.println("I work in " + companyName + " company");
