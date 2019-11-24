@@ -1,0 +1,16 @@
+package com.syntax.class9;
+
+public class ArrayManipulation {
+
+	protected int largestNumber(int[] array) {
+		
+		return 5;
+		
+		
+	}
+	
+	
+	
+	
+	
+}

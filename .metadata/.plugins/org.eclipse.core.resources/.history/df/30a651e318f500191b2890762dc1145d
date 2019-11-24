@@ -1,0 +1,21 @@
+
+public class Test1 {
+
+	public static void main(String[] args) {
+
+		for (int h=0; h<11; h++) {
+			for (int m=0; m<51; m++) {
+				if (m < 10) {
+                    System.out.print(h + ":0" + m);
+                } else {
+                    System.out.print(h + ":" + m);
+                }
+				
+			}
+		}
+		
+}
+
+}
+
+

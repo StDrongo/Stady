@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="Main"/>
+<fullyQualifiedTypeName name="com.class22.StaticVsNonStatic"/>
+<fullyQualifiedTypeName name="com.syntax.class9.ArrayApplication"/>
+<fullyQualifiedTypeName name="com.syntax.class9.JamesMember"/>
+<fullyQualifiedTypeName name="java.security.acl.LastOwnerException"/>
+<fullyQualifiedTypeName name="com.syntax.class9.SmithMember"/>
+<fullyQualifiedTypeName name="com.syntax.class9.Car"/>
+<fullyQualifiedTypeName name="com.class23.BetterCar"/>
+<fullyQualifiedTypeName name="com.class23.Task1"/>
+<fullyQualifiedTypeName name="com.class23.Student"/>
+<fullyQualifiedTypeName name="com.class24.Country"/>
+<fullyQualifiedTypeName name="com.class24.ThisKeyword"/>
+<fullyQualifiedTypeName name="com.class24.ThisWithConstractor"/>
+<fullyQualifiedTypeName name="com.class24.Constructor"/>
+<fullyQualifiedTypeName name="com.class24.Parent"/>
+<fullyQualifiedTypeName name="Practice"/>
+</qualifiedTypeNameHistroy>

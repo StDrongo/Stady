@@ -1,0 +1,57 @@
+package com.class24;
+
+public class Main {
+
+	public String capital, name;
+	public int population;
+	
+	public Main(){
+		System.out.println("I am non argument constructor");
+	}
+	
+	Main(String name, String capital, int population) {
+		this.name=name;
+		this.capital=capital;
+		this.population=population;
+	}
+	
+	public void displayInfo() {
+		System.out.println(name+" "+capital);
+	}
+	
+	public static void main(String[] args) {
+
+		Main country1=new Main("USA", "Washington DC", 350);
+		Main country2=new Main("Kazakhstan", "Astana", 18 );
+		Main country3=new Main();
+		
+		country1.displayInfo();
+		country2.displayInfo();
+		country3.displayInfo();
+	}
+}
+
+
+
+
+
+
+
+
+
+//Country country1=new Country();
+//country1.name="Usa";
+//country1.capital="Washington dc";
+//
+//Country country2=new Country();
+//country2.name="Kazakhstan";
+//country2.capital="Astana";
+
+//System.out.println(country1.name);
+//System.out.println(country1.capital);
+//
+//System.out.println(country2.name);
+//System.out.println(country2.capital);
+//
+//System.out.println(country3.name);
+//System.out.println(country3.capital);

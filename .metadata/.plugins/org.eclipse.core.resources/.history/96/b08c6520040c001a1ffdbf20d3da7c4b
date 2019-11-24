@@ -1,0 +1,28 @@
+package com.syntax.class9;
+
+public class SmithMember {
+
+	static String lastName;
+	static int count;
+	static int familyIncome;
+	
+	String firstName;
+	char gender;
+	int salary;
+	
+	public static void addIncome(int salary) {
+		familyIncome +=salary;
+	}
+	
+	public void increment() {
+		count++;
+	}
+	
+	public void memberInfo() {
+		System.out.println(firstName+" "+lastName
+				+" makes "+salary+" per month");
+	}
+	
+	
+	
+}

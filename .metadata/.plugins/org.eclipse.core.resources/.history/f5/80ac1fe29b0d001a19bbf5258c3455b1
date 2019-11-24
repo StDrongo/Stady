@@ -1,0 +1,57 @@
+ class Main {
+
+	 
+	 //	 Declare below variables in your main class as below. 
+//	 int batch=3;
+//	 String InstituteName="SyntaxSolutions"
+//	 int year=2019;
+//	 then print out the variables value in main method. this will require creating an object of the class. to make use of your instance variables
+//     Output sequence:
+//	 3
+//	 SyntaxSolutions
+//	 2019
+
+     int batch = 3;
+     String InstituteName = "SyntaxSolutions";
+     int year = 2019;
+     
+     public static void main(String[] args) {
+		
+    	 Main m = new Main();
+    	 System.out.println(m.batch);
+    	 System.out.println(m.InstituteName);
+    	 System.out.println(m.year);
+    	 
+    	 
+    	 
+    	 
+	}
+	 
+	 
+	 
+	 
+	 
+   
+ }
+	
+	
+	
+	
+	
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+		

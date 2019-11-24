@@ -1,0 +1,62 @@
+ class Main {
+	 
+//	 create two methods follow steps
+//	 Step 1: Create first method, should be a regular method without static keyword. and have the logic to print out 
+//	 the following message "Programming is amazing."
+//	 Step 2: Create second method. should be static method and write the logic to print out the following message:
+//	 "Java is awesome."
+//	 Step 3: try call this two method in main method
+//	 Output:
+//	 Programming is amazing.
+//	 Java is awesome.
+		  
+	 void str() {
+		System.out.println("Programming is amazing.");		
+	  } 
+	 static String name = "Java is awesome.";
+	 
+	 public static void main(String[] args) {
+		
+		 Main m = new Main();
+		 m.str();
+		 System.out.println(name);
+		 
+		 
+		 
+		 
+		 
+		 
+	}
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+	}
+
+	
+	 
+	 
+
+	
+	
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+		

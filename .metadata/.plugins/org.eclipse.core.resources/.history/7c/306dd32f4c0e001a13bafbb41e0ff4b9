@@ -1,0 +1,47 @@
+public class Practice {
+
+//	First declared the static class variable 
+//	static int a=100;
+//	then print the value
+//	then change the value to 200;
+//	then print the value
+//	again  change the value to 300;
+//	then print the value
+//	Output:
+//	100
+//	200
+//	300
+	
+	static int a=100;
+	
+	public static void main(String[] args) {
+		
+		Practice.a = 100;
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

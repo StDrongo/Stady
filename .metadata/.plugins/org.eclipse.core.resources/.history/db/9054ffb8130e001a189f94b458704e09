@@ -1,0 +1,24 @@
+package com.class24;
+
+public class ThisKeyword {
+
+	int a, b;
+	
+	public ThisKeyword(int a, int b) {
+
+	this.a=a;
+	this.b=b;
+	
+	
+	
+	}
+	
+	public void sum(int a, int b) {
+		System.out.println("The sum of local parameters is "+a+b);
+	}
+	
+	
+	
+	
+	
+}

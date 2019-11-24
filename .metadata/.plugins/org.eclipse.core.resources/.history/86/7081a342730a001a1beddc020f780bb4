@@ -1,0 +1,59 @@
+public class Main {
+
+//	Declare a private,default,protected,public methods and have them each return the name of the what access modifier 
+//	they are using in order as below. make the return values add to each other.
+//
+//			Output:
+//			private, default, protected, public
+//	
+	
+	private String str() {
+		String str = "private";
+		return str;
+	}
+	String name() {
+		String name = "default";
+		return name;
+	} 
+	
+	protected void prot() {
+		String str1 = "protected";
+	}
+	
+	
+	public void pub() {
+		String str2 = "public";
+		
+	}
+	
+	
+
+	public static void main(String[] args) {
+		Main out = new Main();
+		System.out.println(out.str());
+		
+	}
+	
+}	
+	
+	
+	
+	
+	
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+		

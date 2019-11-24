@@ -1,0 +1,23 @@
+package com.class24;
+
+public class Country {
+
+	public String capital, name;
+	
+	Country(String countryName, String countryCapital) {
+		name = countryName;
+		capital = countryCapital;
+	}
+	
+	public static void main(String[] args) {
+		Country country1 = new Country("Belarus", "Minsk");
+		System.out.println(country1);
+		
+	}
+	
+	
+	
+	
+	
+	
+}

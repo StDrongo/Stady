@@ -1,0 +1,22 @@
+package com.syntax.class9;
+
+public class Car {
+
+	String make;
+	String color;
+	
+	public Car() {
+		
+	}
+	
+	public void displayInfo() {
+	System.out.println("This is a car. Type is: "
+	+make+" color is: "+color);
+	}
+	
+	
+	
+	
+	
+	
+}

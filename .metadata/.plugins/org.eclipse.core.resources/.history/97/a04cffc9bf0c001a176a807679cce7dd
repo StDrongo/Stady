@@ -1,0 +1,9 @@
+package com.class23;
+
+public class Constructor {
+
+	public static void main(String[] args) {
+
+	}
+
+}
