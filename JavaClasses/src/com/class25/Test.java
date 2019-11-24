@@ -22,12 +22,17 @@ public class Test {
 		
 		System.out.println("---Creating an object of a Developer class-----");
 		Developer dev=new Developer();
-		dev.salary=130000;
+		dev.salary=130000;//accessing default varibale within same package
 		dev.work();
 		dev.getPaid();
 		dev.code();
 		dev.artifacts="Sprint Backlog";
 		dev.ceremonies="Sprint Demo, Planning, Retro, Daily StandUp";
 		dev.attendScrumMeetings();
+		dev.employeeId=101;
+		//dev.employeeSsn not accessible
+		
+
+	
 	}
 }

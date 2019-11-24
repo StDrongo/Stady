@@ -1,0 +1,42 @@
+package com.class25;
+
+public class Programming {
+
+	
+	static String language;
+	
+	
+	
+	public void Programming() {
+		System.out.println("I love programming");
+	}
+	
+	public Programming(String str) {
+		System.out.println("I love "+language);
+	}
+	
+	public static void main(String[] args) {
+		
+		Programming obj = new Programming(language);
+		obj.Programming();
+		obj.Programming();
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
