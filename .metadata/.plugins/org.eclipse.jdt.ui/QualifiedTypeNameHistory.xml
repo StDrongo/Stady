@@ -28,4 +28,7 @@
 <fullyQualifiedTypeName name="morePractice.StoreProduct"/>
 <fullyQualifiedTypeName name="morePractice.SyntaxTechnologies"/>
 <fullyQualifiedTypeName name="morePractice.Employee"/>
+<fullyQualifiedTypeName name="morePractice.ShoppingStore"/>
+<fullyQualifiedTypeName name="morePractice.Person"/>
+<fullyQualifiedTypeName name="morePractice.Retiree"/>
 </qualifiedTypeNameHistroy>
