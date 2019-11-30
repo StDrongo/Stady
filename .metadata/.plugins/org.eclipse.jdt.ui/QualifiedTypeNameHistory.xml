@@ -38,4 +38,9 @@
 <fullyQualifiedTypeName name="com.class26.FirefoxDriver"/>
 <fullyQualifiedTypeName name="com.class26.WebDriver"/>
 <fullyQualifiedTypeName name="com.class26.ChromeDriver"/>
+<fullyQualifiedTypeName name="com.class27.TestStudy"/>
+<fullyQualifiedTypeName name="com.class27.Student"/>
+<fullyQualifiedTypeName name="com.class27.CollegeStudent"/>
+<fullyQualifiedTypeName name="com.class27.SyntaxStudent"/>
+<fullyQualifiedTypeName name="morePractice.Meth"/>
 </qualifiedTypeNameHistroy>

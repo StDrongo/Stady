@@ -1,15 +1,17 @@
 package com.syntax.class8;
 
 public class MathOperations {
-
-	void add(int number1, int number2, int number3) {
-		int sum = number1+number2+number3;
-		System.out.println("The sum is "+sum);
-		
+	
+	void add(int num1, int num2) {
+		int result = num1 + num2;
+		System.out.println("The result inside method add is: " + result);
 	}
 	
-	
-	
-	
-	
+	int add2(int num1, int num2) {
+		int result = num1 + num2;
+		System.out.println("The result inside method add2 is: " + result);
+		return result;
+	}
+
 }
+
