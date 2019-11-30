@@ -23,7 +23,6 @@
 <fullyQualifiedTypeName name="com.class25_1.Addition"/>
 <fullyQualifiedTypeName name="com.class25_1.CalculateArea"/>
 <fullyQualifiedTypeName name="com.class25.Programming"/>
-<fullyQualifiedTypeName name="morePractice.Main"/>
 <fullyQualifiedTypeName name="morePractice.Car"/>
 <fullyQualifiedTypeName name="morePractice.StoreProduct"/>
 <fullyQualifiedTypeName name="morePractice.SyntaxTechnologies"/>
@@ -31,4 +30,12 @@
 <fullyQualifiedTypeName name="morePractice.ShoppingStore"/>
 <fullyQualifiedTypeName name="morePractice.Person"/>
 <fullyQualifiedTypeName name="morePractice.Retiree"/>
+<fullyQualifiedTypeName name="morePractice.Main"/>
+<fullyQualifiedTypeName name="morePractice.Const"/>
+<fullyQualifiedTypeName name="morePractice.Constructor"/>
+<fullyQualifiedTypeName name="com.class26.Postgraduate"/>
+<fullyQualifiedTypeName name="com.class26.Animal"/>
+<fullyQualifiedTypeName name="com.class26.FirefoxDriver"/>
+<fullyQualifiedTypeName name="com.class26.WebDriver"/>
+<fullyQualifiedTypeName name="com.class26.ChromeDriver"/>
 </qualifiedTypeNameHistroy>
