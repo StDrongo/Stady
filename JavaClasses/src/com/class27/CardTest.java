@@ -44,7 +44,7 @@ public class CardTest {
 		for(int y=0; y<cardArray1.length; y++) {
 			cardArray1[y].creditLimit();
 		}
-		
+		System.out.println("-----Creating objects of each class----");
 		Card c1=new Card();
 		c1.chargeInterest();
 		c1.creditLimit();
@@ -65,13 +65,12 @@ public class CardTest {
 		cc.chargeInterest();
 		cc.creditLimit();
 		
-		
+		System.out.println("----creating an array that will hold only MC types");
 		MC[] masterCards= {mc1,mc2,mc3};
 		for(MC mCard:masterCards) {
 			mCard.cashBack();
 			mCard.chargeInterest();
 			mCard.creditLimit();
-		}
-		
+		}	//BREAK TILL 11:40
 	}
 }
