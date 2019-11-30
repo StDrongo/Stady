@@ -2,6 +2,14 @@ package com.class27;
 
 public class Student {
 	
+	public static void main(String[] args) {
+		Student stu=new Student();
+		stu.doHomework();
+		stu.attendClasses();
+		stu.research();
+		stu.study();
+	}
+	
 	public void study() {
 		System.out.println("Student needs  to study");
 	}
