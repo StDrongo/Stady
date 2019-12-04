@@ -2,7 +2,7 @@ package morePractice;
 
 import java.util.Scanner; // импорт сканера
 
-class Test {
+class Test1 {
 	public static void main(String args[]){
 		System.out.println("------------");
 		System.out.print("Введите любое дробное число: ");

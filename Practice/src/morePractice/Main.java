@@ -2,48 +2,39 @@ package morePractice;
 
 import java.util.Scanner;
 
-//Create a final method and name it reverseString with a return type of String. 
-//when you call the method and enter the string parameter, the method should return my string. 
-//implement a scanner class to reverse the string.
-//Input:
-// hello
+//Create a final method. the final method should have no return type. What i want for you to do is in the final method create logic to reverse 2 numbers. 
+//for instance a=12 and b =10. i want b to have the value of 12 and a to have the value of 10. 
+//DO NOT REASSIGN the values, you must create logic where they both swap numbers
+//THIS IS A SCANNER INPUT.
+//Input: 
+//12
+//10
 //Output:
-//olleh
-        public class Main {    
-public final static String reverseString(String str) {
+//a is now assigned value of 10
+//b is now assigned value of 12
+public class Main {
+	
 	Scanner scan = new Scanner(System.in);
-    String str1 = scan.nextLine();
-    String reverse = "";
-    for(int i = str1.length() - 1; i >= 0; i--)
-      {
-          reverse = reverse + str1.charAt(i);
-      }
-    System.out.println(reverse);
-    return reverse;
-    }
-
-
-    public static void main(String[] args) {
-
-    	Main a = new Main();
-    	String str1=null;
-    	Main.reverseString(str1);
-    	//        Scanner scan = new Scanner(System.in);
-//        String str = scan.nextLine();
-//        String reverse = "";
-//        
-//        
-//        for(int i = str.length() - 1; i >= 0; i--)
-//        {
-//            reverse = reverse + str.charAt(i);
-//        }
-//        
-//        System.out.println("Reversed string is:");
-//        System.out.println(reverse);
-    }
+	
+	
+	public final void method() {
+		int a = scan.nextInt();
+		int b = scan.nextInt();
+		System.out.println(b);
+		System.out.println();
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		Main a = new Main();
+		a.method();
+		
+	}
+	
+	
+	
 }
-
-
 		
 		
 
