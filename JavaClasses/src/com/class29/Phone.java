@@ -14,6 +14,7 @@ public abstract class Phone {
 	
 	public abstract void playGames();
 }
+
 //concrete class
 class iPhone extends Phone{
 
