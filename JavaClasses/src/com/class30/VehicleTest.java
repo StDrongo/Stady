@@ -44,5 +44,6 @@ public class VehicleTest {
 		new BMW("yiuy89787iy", "Sedan", "BMW", "i7");
 		System.out.println("---------");
 		Vehicle.displayTotal();
+		//break till 8:35
 	}
 }

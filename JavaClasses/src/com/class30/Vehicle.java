@@ -16,7 +16,7 @@ public abstract class Vehicle {
 	public static void displayTotal() {
 		System.out.println("Total vehicles we build="+totalVehicles);
 	}
-	public abstract void start();
+	protected abstract void start();
 	abstract void speed();
 }
 abstract class Car extends Vehicle {
