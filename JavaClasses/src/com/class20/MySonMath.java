@@ -1,8 +1,8 @@
 package com.class20;
 
 public class MySonMath {
-    String name;
-    void add1() {
+    public String name;
+    public void add1() {
         int num1 = 2;
         int num2 = 1;
         int result = num1 + num2;

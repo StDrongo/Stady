@@ -43,4 +43,7 @@
 <fullyQualifiedTypeName name="com.class27.CollegeStudent"/>
 <fullyQualifiedTypeName name="com.class27.SyntaxStudent"/>
 <fullyQualifiedTypeName name="morePractice.Meth"/>
+<fullyQualifiedTypeName name="morePractice.Child"/>
+<fullyQualifiedTypeName name="java.lang.Package"/>
+<fullyQualifiedTypeName name="morePractice.Parent"/>
 </qualifiedTypeNameHistroy>
