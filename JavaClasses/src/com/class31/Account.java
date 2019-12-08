@@ -7,24 +7,19 @@ public class Account {
 	//getters - give read only access
 	public long getAccountNumber() {
 		return accountNumber;
-	}
+	}	
 	public double getBalance() {
 		return balance;
 	}
-	//setters - give write only access
-	public void setBalance(int amount) {
+	//setter - give write only access
+	public void setBalance(int amount) {	
 		if (amount>0) {
 			balance=balance+amount;
-		}
+		}	
 	}
 	public void setAccountNumber(long accountNumber) {
 		if (String.valueOf(accountNumber).length()==9) {
 			this.accountNumber=accountNumber;
 		}
 	}
-	
-	
-		
-	
-
 }
