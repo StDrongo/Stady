@@ -30,7 +30,6 @@
 <fullyQualifiedTypeName name="morePractice.ShoppingStore"/>
 <fullyQualifiedTypeName name="morePractice.Person"/>
 <fullyQualifiedTypeName name="morePractice.Retiree"/>
-<fullyQualifiedTypeName name="morePractice.Main"/>
 <fullyQualifiedTypeName name="morePractice.Const"/>
 <fullyQualifiedTypeName name="morePractice.Constructor"/>
 <fullyQualifiedTypeName name="com.class26.Postgraduate"/>
@@ -45,5 +44,10 @@
 <fullyQualifiedTypeName name="morePractice.Meth"/>
 <fullyQualifiedTypeName name="morePractice.Child"/>
 <fullyQualifiedTypeName name="java.lang.Package"/>
+<fullyQualifiedTypeName name="com.class31.Parent"/>
+<fullyQualifiedTypeName name="com.class31.Child"/>
+<fullyQualifiedTypeName name="com.class31.Account"/>
 <fullyQualifiedTypeName name="morePractice.Parent"/>
+<fullyQualifiedTypeName name="morePractice.Main"/>
+<fullyQualifiedTypeName name="morePractice.ParentInterface"/>
 </qualifiedTypeNameHistroy>

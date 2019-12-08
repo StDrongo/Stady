@@ -1,19 +1,21 @@
 package morePractice;
 
-public class Main {
+public class Main implements ChildInterface {
+
+	@Override
+	public void parentMethod() {
+		System.out.println("Parent Method-----welcome to syntax solutions");
+	}
+
+	@Override
+	public void childMehtod() {
+		System.out.println("Child Method-----hi syntax solutions how are you");
+	}
 
 	public static void main(String[] args) {
-		
-//Create and object of Child class. pass city name as "Fairfax" and call the display method. 	
-		
-	Parent a = new Parent("Fairfax");	
-		a.name();
-		
-		
-		
+
+		Main a = new Main();
+		a.parentMethod();
+		a.childMehtod();
 	}
-	
-	
-	
-	
 }
