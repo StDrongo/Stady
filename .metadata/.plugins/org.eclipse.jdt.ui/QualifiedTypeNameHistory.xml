@@ -51,4 +51,9 @@
 <fullyQualifiedTypeName name="morePractice.Main"/>
 <fullyQualifiedTypeName name="morePractice.ParentInterface"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="morePractice.FirstInterface"/>
+<fullyQualifiedTypeName name="morePractice.SecondInterface"/>
+<fullyQualifiedTypeName name="morePractice.Outputs"/>
+<fullyQualifiedTypeName name="morePractice.Functions"/>
+<fullyQualifiedTypeName name="morePractice.MyInterface"/>
 </qualifiedTypeNameHistroy>
