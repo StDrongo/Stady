@@ -25,7 +25,7 @@ public class HomeWork {
 			System.out.println(car.get(i));
 		}
 		System.out.println("******************  Third way  **********");
-		Iterator<String> it=car.iterator();
+		Iterator it=car.iterator();
 		while(it.hasNext()) {
 			System.out.println(it.next());
 		}
