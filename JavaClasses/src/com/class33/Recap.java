@@ -38,7 +38,7 @@ public class Recap {
 		for(int num:numbers) {
 			System.out.println(num);
 		}
-		System.out.println("-------------------------");
+		System.out.println("-----------get values backward--------------");
 		
 		//I want to get values backward
 		for(int i=numbers.size()-1; i>=0; i--) {
