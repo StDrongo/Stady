@@ -40,6 +40,18 @@ public class MapIntro {
 		//how to remove an Object from a map
 		map.remove(101);
 		System.out.println(map);
-		
+		System.out.println("----------------------------");
+		//how to verify if certain key is exist		
+		boolean flag1=map.containsKey(200);
+		System.out.println(flag1);
+		if(flag1) {
+			map.replace(200, "Seval");
+		}else {
+			map.put(200, "Seval");
+		}
+		//how to verify if certain value is exist
+		boolean contains=map.containsValue("Seval");
+		System.out.println(contains);
+		System.out.println(map);
 	}
 }
