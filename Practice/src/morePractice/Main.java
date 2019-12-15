@@ -1,21 +1,14 @@
 package morePractice;
 
-//Create a hashset contains below values. 
-//first
-//second
-//third
-//fourth 
-//fifth 
-//Create a logic to add the values of hashset to and array.
-//print the values of array one by one. 
-//Output:
-//Array elements: 
-//third 
-//fifth 
-//fourth 
-//first 
-//second
-
+//Create a method the return an LinkList. without parameters. 
+//inside the method put the logic to add below values to the linklist and return the list. 
+//In Main Class. 
+//call the method and store it to a new Linklist. 
+//Print the values of LinkList. 
+//Output
+//John
+//Brian
+//Ryan
 
 
 
@@ -24,22 +17,20 @@ package morePractice;
 
 import java.util.*;
 class Main {
-
-	public static void main(String[] args) {
-		
-	HashSet<String> set = new HashSet<String>();
 	
-	set.add("first");
-	set.add("second");
-	set.add("third");
-	set.add("fourth");
-	set.add("fifth");
+	public static void main(String[] args) {
+		ArrayList <Boolean>listA = new ArrayList<Boolean>();
+		listA.add(true);
+		listA.add(false);
+		listA.add(false);
 		
-	String[] array = new String[set.size()];
-    set.toArray(array);
-    System.out.println("Array elements: ");
-    for(String temp : array){
-       System.out.println(temp);
-    }
- 	}
+		ArrayList <Boolean>listB = new ArrayList<Boolean>();
+		for (int i = 0; i <2 ; i ++) {
+			for (int j = 0; j<listA.size(); j++) {
+				listB.add(listA.get(j));
+			}
+		}
+		
+		System.out.println(listB);
+	}
 }
