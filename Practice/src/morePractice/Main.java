@@ -1,14 +1,16 @@
 package morePractice;
 
-//Create a method the return an LinkList. without parameters. 
-//inside the method put the logic to add below values to the linklist and return the list. 
-//In Main Class. 
-//call the method and store it to a new Linklist. 
-//Print the values of LinkList. 
-//Output
-//John
-//Brian
-//Ryan
+//Create A TreeMap of Integer, Double
+//Add the below values
+//1  1.1
+//2  2.2
+//3  3.3
+//4  4.4
+//5  5.5
+//validate below and print the results 
+//is Contain Key 3?
+//is Contain Values 4.4?
+//is Contain  key 6?
 
 
 
@@ -16,21 +18,22 @@ package morePractice;
 
 
 import java.util.*;
+
 class Main {
-	
-	public static void main(String[] args) {
-		ArrayList <Boolean>listA = new ArrayList<Boolean>();
-		listA.add(true);
-		listA.add(false);
-		listA.add(false);
-		
-		ArrayList <Boolean>listB = new ArrayList<Boolean>();
-		for (int i = 0; i <2 ; i ++) {
-			for (int j = 0; j<listA.size(); j++) {
-				listB.add(listA.get(j));
-			}
-		}
-		
-		System.out.println(listB);
-	}
+    	
+    	public static void main(String[] args) {
+			
+    	TreeMap<Integer, Double> val = new TreeMap<>();
+    	val.put(1, 1.1);
+    	val.put(2, 2.2);
+    	val.put(3, 3.3);
+    	val.put(4, 4.4);
+    	val.put(5, 5.5);
+    	
+    	System.out.println(val.containsKey(3));
+      System.out.println(val.containsValue(4.4));
+      System.out.println(val.containsKey(6));
+
+    	  	
+    }
 }
