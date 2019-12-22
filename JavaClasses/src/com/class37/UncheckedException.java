@@ -16,8 +16,8 @@ public class UncheckedException {
 		}catch(ArithmeticException e) {//ArithmeticException e=new ArithmeticException();
 			
 			System.out.println("I am code inside catch block");
-			//e.printStackTrace();
-			//System.out.println(e);
+//			e.printStackTrace();
+//			System.out.println(e);
 			System.out.println(e.getMessage());
 		}
 		
