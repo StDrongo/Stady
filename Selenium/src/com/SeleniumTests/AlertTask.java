@@ -26,6 +26,7 @@ public class AlertTask extends CommonMethods{
 	Thread.sleep(2000);
 	driver.findElement(By.xpath("//button[@class='btn btn-default']")).click();
 	Alert alert = driver.switchTo().alert();	
+	Thread.sleep(2000);
 	if (alert.getText().equals("I am an alert box!")) {
 		alert.accept();
 	}else {
@@ -35,11 +36,14 @@ public class AlertTask extends CommonMethods{
 	driver.findElement(By.xpath("//button[@class='btn btn-default btn-lg'][contains(text(),'Click me!')]")).click();
 	System.out.println(alert.getText());
 	driver.switchTo().alert();
+	Thread.sleep(2000);
 	alert.accept();
 	Thread.sleep(2000);
 	driver.findElement(By.xpath("//button[contains(text(),'Click for Prompt Box')]")).click();
+	Thread.sleep(2000);
 	driver.switchTo().alert();
 	alert.sendKeys("text");
+	alert.accept();
 	Thread.sleep(3000);
 	driver.quit();
 	
