@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="morePractice.Constructor"/>
-<fullyQualifiedTypeName name="com.class26.Postgraduate"/>
-<fullyQualifiedTypeName name="com.class26.Animal"/>
-<fullyQualifiedTypeName name="com.class26.FirefoxDriver"/>
-<fullyQualifiedTypeName name="com.class26.WebDriver"/>
-<fullyQualifiedTypeName name="com.class26.ChromeDriver"/>
-<fullyQualifiedTypeName name="com.class27.TestStudy"/>
-<fullyQualifiedTypeName name="com.class27.Student"/>
 <fullyQualifiedTypeName name="com.class27.CollegeStudent"/>
 <fullyQualifiedTypeName name="com.class27.SyntaxStudent"/>
 <fullyQualifiedTypeName name="morePractice.Meth"/>
@@ -51,13 +43,21 @@
 <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
 <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="javax.sql.CommonDataSource"/>
 <fullyQualifiedTypeName name="com.utils.Constants"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.Alert"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
-<fullyQualifiedTypeName name="com.utils.CommonMethods"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By.ByXPath"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedCondition"/>
+<fullyQualifiedTypeName name="javax.xml.soap.Text"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.interactions.touch.UpAction"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+<fullyQualifiedTypeName name="com.utils.CommonMethods"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 </qualifiedTypeNameHistroy>
