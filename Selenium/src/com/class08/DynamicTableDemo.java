@@ -14,7 +14,7 @@ import com.utils.CommonMethods;
 public class DynamicTableDemo extends CommonMethods {
 	public static void main(String[] args) throws InterruptedException {
 
-		setUp("chrome", "http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx");
+		setUp("firefox", "http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx");
 		//login
 		driver.findElement(By.id("ctl00_MainContent_username")).sendKeys("Tester");
 		driver.findElement(By.id("ctl00_MainContent_password")).sendKeys("test");
@@ -28,6 +28,7 @@ public class DynamicTableDemo extends CommonMethods {
 			//System.out.println(rowText);
 			if(rowText.contains(expectedValue)) {
 				driver.findElement(By.xpath("//table[@id='ctl00_MainContent_orderGrid']/tbody/tr["+i+"]/td[1]")).click();
+				Thread.sleep(2000);
 			}
 		}
 
