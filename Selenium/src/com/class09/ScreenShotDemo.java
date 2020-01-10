@@ -16,7 +16,7 @@ import com.utils.Constants;
 public class ScreenShotDemo extends CommonMethods {
 	public static void main(String[] args) throws InterruptedException {
 
-		setUp("chrome", Constants.HRMS_URL);
+		setUp("firefox", Constants.HRMS_URL);
 		// login into HRMS
 		String userName = "Admin";
 		String password = "Hum@nhrm123";

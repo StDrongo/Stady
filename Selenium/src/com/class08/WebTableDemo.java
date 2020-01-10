@@ -12,7 +12,7 @@ import com.utils.Constants;
 public class WebTableDemo extends CommonMethods {
 	public static void main(String[] args) {
 
-		setUp("chrome", Constants.SYNTAX_PRACTICE_URL);
+		setUp("chrome", Constants.HRMS_URL);
 		//navigate to the table we need
 		driver.findElement(By.linkText("Table")).click();
 		driver.findElement(By.linkText("Table Data Search")).click();

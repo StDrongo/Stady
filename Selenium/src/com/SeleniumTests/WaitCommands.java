@@ -4,7 +4,8 @@ package com.SeleniumTests;
 	import org.openqa.selenium.Keys;
 	import org.openqa.selenium.support.ui.ExpectedConditions;
 	import org.openqa.selenium.support.ui.WebDriverWait;
-	import com.utils.CommonMethods;
+
+import com.utils.CommonMethods;
 	public class WaitCommands extends CommonMethods{
 //		Open chrome browser
 //		Go to “https://the-internet.herokuapp.com/”

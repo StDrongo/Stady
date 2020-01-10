@@ -3,6 +3,7 @@ package com.class05;
 import java.util.Iterator;
 import java.util.Set;
 import org.openqa.selenium.By;
+
 import com.utils.CommonMethods;
 
 public class MultiWindowsDemo extends CommonMethods{

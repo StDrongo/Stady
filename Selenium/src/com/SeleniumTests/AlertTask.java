@@ -4,16 +4,6 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 
 import com.utils.CommonMethods;
-//“http://jiravm.centralus.cloudapp.azure.com:8081/index.html”
-//Click on “Alerts & Modals” links
-//Click on “Javascript Alerts” links
-//Click on button in “Java Script Alert Box” section
-//Verify alert box with text “I am an alert box!” is present
-//Click on button in “Java Script Confirm Box” section
-//Verify alert box with text “Press a button!” is present
-//Click on button in “Java Script Alert Box” section
-//Enter text in the alert box
-//Quit browser
 
 public class AlertTask extends CommonMethods{
 	public static final String SYNTAX_PRACTICE_URL = "http://jiravm.centralus.cloudapp.azure.com:8081/";

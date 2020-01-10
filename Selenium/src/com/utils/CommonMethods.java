@@ -1,7 +1,5 @@
 package com.utils;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchFrameException;
@@ -10,35 +8,29 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-//command+o--> to see all methods within the class
 public class CommonMethods {
 
 	public static WebDriver driver;
 
-	/**
-	 * Use this method in need of opening browser and target url
-	 * 
-	 * @param browser The desired browser
-	 * @param url     The desired url
-	 */
 	public static void setUp(String browser, String url) {
 
-		if (browser.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "drivers//geckodriver.exe");
-			driver = new FirefoxDriver();
-			driver.get(url);
+		if (browser.equalsIgnoreCase("chrome")) {
 
-		} else if (browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "drivers/chromeDriver");
+			System.setProperty("webdriver.chrome.driver", "drivers//chromedriver.exe");
+
 			driver = new ChromeDriver();
 			driver.get(url);
-		} else {
-			System.err.println("Browser not supported");
+			driver.manage().window().maximize();
+
+		} else if (browser.equalsIgnoreCase("firefox")) {
+
+			System.setProperty("webdriver.gecko.driver", "drivers//geckodriver.exe");
+
+			driver = new FirefoxDriver();
+			driver.get(url);
+			driver.manage().window().maximize();
+
 		}
-		driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get(url);
 
 	}
 
@@ -130,19 +122,5 @@ public class CommonMethods {
 			System.out.println("Frame is not present");
 		}
 	}
-
-//	public static WebDriver setUp(String browser){
-//		
-//		if(browser.equalsIgnoreCase("chrome")) {
-//			System.setProperty("webdriver.chrome.driver", "drivers/chromeDriver");
-//			driver=new ChromeDriver();
-//		
-//		}else if(browser.equalsIgnoreCase("firefox")) {
-//			System.setProperty("webdriver.gecko.driver", "drivers/geckodriver");
-//			driver=new FirefoxDriver();
-//		}
-//		
-//		return driver;
-//	}
 
 }

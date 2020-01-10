@@ -4,14 +4,6 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-//Open chrome browser
-//Go to “http://166.62.36.207/syntaxpractice/”
-//Click on “Table” link
-//Click on “ITable Data Search” link
-//Verify second table consist of 4 rows and 5 columns
-//Print name of all column headers 
-//Print data of all rows
-//Quit Browser
 import com.utils.CommonMethods;
 
 public class TaskTable extends CommonMethods{

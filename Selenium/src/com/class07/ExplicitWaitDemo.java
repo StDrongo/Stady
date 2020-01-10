@@ -17,7 +17,7 @@ public class ExplicitWaitDemo extends CommonMethods{
  * */
 	
 	public static void main(String[] args) throws InterruptedException {
-		setUp("chrome", Constants.SYNTAX_PRACTICE_URL);
+		setUp("chrome", Constants.HRMS_URL);
 		driver.findElement(By.linkText("Others")).click();
 		driver.findElement(By.linkText("Dynamic Data Loading")).click();
 		driver.findElement(By.id("save")).click();
