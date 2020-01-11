@@ -15,7 +15,7 @@ import com.utils.Constants;
  */
 public class ActonsClassDemo extends CommonMethods {
 	public static void main(String[] args) throws InterruptedException {
-		setUp("chrome", Constants.HRMS_URL);
+		setUp("firefox", Constants.HRMS_URL);
 		driver.findElement(By.cssSelector("input#txtUsername")).sendKeys("Admin");
 		driver.findElement(By.cssSelector("input#txtPassword")).sendKeys("Hum@nhrm123");
 
